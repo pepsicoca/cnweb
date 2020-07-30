@@ -1,0 +1,526 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(21, 21, 141);
+    position: relative;
+}
+
+.header .logo {
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.logo-content {
+    float: left;
+}
+
+.logo-content>img {
+    margin-left: 280px;
+    float: left;
+}
+
+.logo-content .search {
+    float: left;
+    width: 400px;
+    height: 170px;
+    margin-left: 494px;
+    background-color: ;
+}
+
+.login {
+    float: left;
+    border-bottom: 1px solid black;
+    margin-left: 44px;
+}
+
+.login a {
+    float: left;
+    text-decoration: none;
+}
+
+.login .flag {
+    float: left;
+}
+
+.login>img {
+    width: 19px;
+    height: 12px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+.search-content {
+    clear: both;
+}
+
+.search-content input {
+    margin-top: 10px;
+}
+
+.father-login {
+    margin-left: 255px;
+    margin-top: 60px;
+}
+
+.content-header {
+    position: absolute;
+    width: 65%;
+    height: 408px;
+    background-color: blueviolet;
+    margin-top: 191px;
+    margin-left: 275px;
+}
+
+.navbar ul {
+    float: left;
+}
+
+.navbar a {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(12, 12, 116);
+}
+
+.navbar ul li {
+    list-style-type: none;
+    float: left;
+    padding: 0 0 0 25px;
+}
+
+.navbar ul li:not(:first-child) a:not(.content-dropdown) {
+    border-left: 1px solid white;
+    padding-left: 5px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.content-dropdown {
+    display: none;
+    position: absolute;
+    width: 249px;
+    height: 140px;
+    background-color: #74c5f5;
+    margin-top: 0px;
+}
+
+.navbar ul li:not(:first-child) a:hover .content-dropdown {
+    display: block;
+}
+
+.navbar ul li a {
+    position: relative;
+}
+
+.content-dropdown div {
+    border-bottom: 1px solid white;
+    padding-bottom: 22px;
+    justify-content: center;
+    color: white;
+    font-size: 17px;
+    padding-top: 3px;
+}
+
+.content-dropdown div:hover {
+    background-color: ;
+    font-style: italic;
+    color: blue;
+}
+
+.main-content {
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+}
+
+.header-main-content {
+    width: 1190px;
+    height: 131px;
+    background-color: white;
+    margin-left: 162px;
+    float: left;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 60px;
+}
+
+.header-main-content .mot img {
+    width: 25px;
+    height: 25px;
+}
+
+.mot {
+    float: left;
+}
+
+.mot {
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.mot a {
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.mot img {
+    margin-left: 20px;
+}
+
+.body-main-content {
+    width: 1190px;
+    height: 600px;
+    background-color: white;
+    margin-left: 162px;
+    float: ;
+}
+
+.first-main-body {
+    float: left;
+}
+
+.tuyensinh {
+    width: 490px;
+    height: 404px;
+    float: left;
+}
+
+.tuyensinh a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font: bold;
+}
+
+.tintuc {
+    width: 373px;
+    height: 404px;
+    float: left;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.body-main-content .first-main-body .tintuc a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.body-main-content .first-main-body .tintuc a:hover {
+    color: blue;
+}
+
+.body-main-content .first-main-body .tintuc ul li {
+    padding-top: 20px;
+    border-bottom: 1px solid lightgray;
+    list-style: none;
+}
+
+.body-main-content .first-main-body .tintuc ul li::before {
+    content: "\2022";
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.tintuc .button button {
+    width: 174px;
+    height: 42px;
+    font-size: 20px;
+    border: ;
+    background-color: white;
+}
+
+.tintuc .button button:hover {
+    color: brown;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.phanhieu-khoa {
+    width: 298px;
+    height: 419px;
+    float: left;
+    background-color: white;
+    margin-left: 19px;
+}
+
+.phanhieu-khoa h3 {
+    font-size: 25px;
+    width: 100%;
+    height: 42px;
+    text-align: center;
+    margin-top: 0px;
+    background-color: #e7e8f1;
+}
+
+.content-phanhieu-khoa {
+    border: 1px solid black;
+    margin-top: -25px;
+    height: 377px;
+}
+
+.phanhieu-khoa .content-phanhieu-khoa ul li {
+    list-style: none;
+    padding-top: 20px;
+    border-bottom: 1px solid lightgray;
+    font-size: 16px;
+    color: blue;
+    text-align: ;
+}
+
+.phanhieu-khoa .content-phanhieu-khoa ul {
+    padding-top: 4px;
+    margin-top: -20px;
+}
+
+.phanhieu-khoa .content-phanhieu-khoa ul li:hover {
+    color: blue;
+}
+
+.second-main-body {
+    width: 100%;
+    height: 217px;
+    background-color: rgb(235, 229, 229);
+    float: left;
+    margin-top: 30px;
+}
+
+.content-second-main-body {
+    width: 1190px;
+    height: 178px;
+    background-color: ;
+    margin: 20px 0 0 162px;
+    padding: 0px;
+}
+
+.content-second-main-body img {
+    height: 177px;
+}
+
+.content-second-main-body img:not(:first-child) {
+    margin-left: 32px;
+}
+
+.daotao {
+    width: 100%;
+    height: 336px;
+    background-color: ;
+    float: left;
+    margin-top: 30px;
+}
+
+.content-daotao {
+    width: 1190px;
+    height: 336px;
+    background-color: ;
+    float: left;
+    margin-left: 162px;
+}
+
+.content-daotao h3 a {
+    text-decoration: none;
+}
+
+.content-daotao img {
+    width: 281px;
+    height: 150px;
+}
+
+.anhdaotao {
+    width: 895px;
+    height: 240px;
+    float: left;
+}
+
+.anhdaotao .anh1 {
+    width: 281px;
+    height: 240px;
+    float: left;
+}
+
+.anhdaotao .anh1:not(:first-child) {
+    margin-left: 24px;
+}
+
+.noidungdaotao {
+    float: left;
+}
+
+.anhdaotao2 {
+    float: left;
+    width: 293px;
+    height: 260px;
+}
+
+.anhdaotao2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.anhdaotao2 ul li {
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.doingoai {
+    background-color: rgb(245, 239, 239);
+}
+
+.anhsukien1 h2 {
+    color: rgb(20, 20, 121);
+}
+
+.anhsinhvien {
+    float: left;
+}
+
+.anhsinhvien img {
+    width: 374px;
+    height: 177px;
+}
+
+.anhsinhvien1 {
+    width: 395px;
+    height: 254px;
+}
+
+.anhsinhvien1 li a {
+    text-decoration: none;
+    color: black;
+}
+
+.anhsinhvien1 li {
+    padding-bottom: 10px;
+}
+
+.anhsinhvien1 ul {
+    margin-top: 4px;
+}
+
+.anhsinhvien1 {
+    float: left;
+}
+
+.doitac {
+    width: 100%;
+    height: 188.5px;
+    background-color: ;
+    float: left;
+    margin-top: 30px;
+}
+
+.doitac .content-doitac {
+    width: 1190px;
+    height: 158px;
+    background-color: ;
+    margin-top: -23px;
+    margin-left: 162px;
+}
+
+.doitac .content-doitac {
+    text-align: center;
+}
+
+.anhdoitac {
+    float: left;
+    width: 100%;
+    height: 113px;
+    margin-top: -6px;
+}
+
+.anhdoitac1 {
+    float: left;
+}
+
+.anhdoitac1 img {
+    width: 263px;
+    height: 112px
+}
+
+.anhdoitac1:not(:first-child) {
+    margin-left: 46px;
+}
+
+.footer {
+    width: 100%;
+    height: 310px;
+    background-color: rgb(7, 7, 122);
+    float: left;
+}
+
+.footer-top {
+    width: 100%;
+    height: 56px;
+    background-color: rgb(61, 115, 214);
+    padding: 0px;
+}
+
+.footer-top h3 {
+    margin-top: 0px;
+    width: 772px;
+    height: 29px;
+    float: left;
+    margin: 18px 0 0 162px;
+    color: white;
+}
+
+.logo-footer img {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.logo-footer {
+    float: left;
+    margin-top: 15px;
+    margin-left: 303px;
+}
+
+.footer-main img {
+    width: 346px;
+    height: 163px;
+    float: left;
+    margin: 40px 0 0 162px;
+}
+
+.content-footer-main1 {
+    color: white;
+    margin-left: 20px;
+    float: left;
+    margin-top: 35px;
+    width: 398px;
+    height: 204px;
+}
+
+.address {
+    font-size: 13px;
+}
+
+.address a {
+    text-decoration: none;
+    color: white;
+}

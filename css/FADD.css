@@ -1,0 +1,11 @@
+.ADD {
+    margin: 20px 0px 10px 10px;
+}
+
+.ADD:hover {
+    background-color: rgb(119, 116, 116);
+}
+
+.card {
+    display: none;
+}

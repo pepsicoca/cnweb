@@ -1,0 +1,25 @@
+.search {
+    width: 600px;
+}
+
+.input_search {
+    width: 100%;
+}
+
+.tk {
+    display: flex;
+}
+
+.year {
+    margin-left: 100px;
+}
+
+.sb {
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.sb:hover {
+    background-color: rgb(139, 138, 138);
+}
